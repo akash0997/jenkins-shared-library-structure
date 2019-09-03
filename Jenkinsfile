@@ -7,12 +7,12 @@ pipeline{
    stages {
    stage ('Trial') {
      steps {
-       HelloWorld.say()
+       HelloWorld().say()
         } 
       }
       stage ('Trial2') {
      steps {
-       HelloWorld.speak()
+       HelloWorld().speak()
         } 
       }
      }
