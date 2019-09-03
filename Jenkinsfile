@@ -14,8 +14,10 @@ pipeline{
       }
       stage ('Trial2') {
      steps {
+        script {
        HelloWorld().speak()
         } 
+     }
       }
      }
  }
