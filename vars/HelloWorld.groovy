@@ -1,3 +1,8 @@
+def call()
+{
+      return this
+}
+
 def say() {
       echo 'Hi everyone'
 }
