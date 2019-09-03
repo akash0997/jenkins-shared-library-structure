@@ -7,7 +7,9 @@ pipeline{
    stages {
    stage ('Trial') {
      steps {
+        script{
        HelloWorld().say()
+        }
         } 
       }
       stage ('Trial2') {
