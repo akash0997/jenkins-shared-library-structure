@@ -8,14 +8,14 @@ pipeline{
    stage ('Trial') {
      steps {
         script{
-       HelloWorld().say()
+       HelloWorld.say()
         }
         } 
       }
       stage ('Trial2') {
      steps {
         script {
-       HelloWorld().speak()
+       HelloWorld.speak()
         } 
      }
       }
